@@ -68,6 +68,43 @@
       color: #0663bb;
       text-align: center; } }
 
+.info {
+  background-color: #d6ecf5;
+  text-align: center; }
+  .info .text {
+    font-family: sans-serif;
+    padding-top: 2em;
+    font-family: 'Cairo', sans-serif !important; }
+    .info .text h2 {
+      line-height: 3em;
+      font-size: 3em;
+      color: #4d92e0; }
+    .info .text p {
+      color: #0663bb;
+      font-size: 2em;
+      font-weight: 400; }
+  .info a {
+    line-height: 5em;
+    background-color: #588cc7;
+    width: 23%;
+    margin-top: 3%;
+    padding: .9%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: .2em;
+    border: darkblue;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3%;
+    text-decoration: none; }
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 60%;
+    margin-left: 10%;
+    margin-right: 10%; } }
+
 * {
   margin: 0;
   padding: 0; }
