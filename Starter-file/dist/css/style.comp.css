@@ -367,6 +367,9 @@
     padding: 2em; }
     .symptome main .photo__img {
       padding-bottom: 1em; }
+      .symptome main .photo__img--img1 {
+        width: 3.6em;
+        padding-bottom: .3em; }
     .symptome main .photo__text {
       color: #1078ad;
       font-weight: 3em; }
