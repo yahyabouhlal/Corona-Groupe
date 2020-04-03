@@ -68,6 +68,155 @@
       color: #0663bb;
       text-align: center; } }
 
+.recomm {
+  display: flex;
+  flex-direction: column; }
+  .recomm__title {
+    background-color: #1078AD;
+    padding-bottom: .5em; }
+    .recomm__title h1 {
+      text-align: center;
+      color: #fff;
+      margin: 1em; }
+  .recomm__conse h4 {
+    color: #fff;
+    padding-left: 15em; }
+  .recomm .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em; }
+    .recomm .list__cons ul {
+      font-weight: bold;
+      color: #fff;
+      line-height: 2em;
+      list-style: none; }
+      .recomm .list__cons ul span {
+        color: #F4CF1B; }
+    .recomm .list__appel {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      line-height: 2em;
+      text-align: center;
+      font-weight: bold; }
+      .recomm .list__appel h3 {
+        color: yellow; }
+      .recomm .list__appel--num1 {
+        background-color: yellow;
+        border-radius: .25em;
+        width: 10em;
+        color: #1078AD; }
+      .recomm .list__appel--num2 {
+        background-color: yellow;
+        border-radius: .25em;
+        width: 10em;
+        color: #1078AD; }
+      .recomm .list__appel--num3 {
+        background-color: yellow;
+        border-radius: .25em;
+        width: 10em;
+        color: #1078AD; }
+  .recomm .reco {
+    background-color: #96C5DC; }
+    .recomm .reco__title2 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #1078AD;
+      margin: 2em; }
+    .recomm .reco__img {
+      text-align: center; }
+    .recomm .reco__btn {
+      padding-top: 2em;
+      text-align: center;
+      padding-bottom: 2em; }
+      .recomm .reco__btn .button1 {
+        background-color: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+        border: none;
+        color: #1078AD;
+        font-weight: bold;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 17em;
+        border-radius: .25em;
+        border: 2px solid #011b8d; }
+        .recomm .reco__btn .button1:hover {
+          background-color: #1078AD;
+          color: #fff; }
+
+@media screen and (max-width: 992px) {
+  .recomm__conse h4 {
+    padding-left: 2em; }
+  .recomm .list {
+    display: flex;
+    flex-direction: column; }
+    .recomm .list__appel {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      padding: .30em;
+      margin: 1em; }
+      .recomm .list__appel h3 {
+        padding-top: 2em; } }
+
+.logo {
+  text-align: center;
+  color: #1078AD;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.footers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.contact {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .contact h2 {
+    color: #1078AD;
+    text-align: center; }
+  .contact__num h5 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .contact__num p {
+    color: #369D53;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 3em;
+    padding: .25em; }
+
+.menu {
+  text-align: center;
+  padding-top: 6em; }
+  .menu h2 {
+    border-bottom: 0.1em solid rgba(16, 121, 173, 0.5);
+    padding-bottom: .5em;
+    width: 10em; }
+  .menu h4 {
+    font-weight: bold !important;
+    border-bottom: 0.1em solid rgba(16, 121, 173, 0.5);
+    width: 15em;
+    padding-bottom: .5em;
+    margin-top: 1em; }
+  .menu a {
+    text-decoration: none;
+    color: #1078AD; }
+
+.fin {
+  background-color: #1078ad;
+  width: 100%;
+  height: 1em;
+  margin-top: 1em; }
+
 .info {
   background-color: #d6ecf5;
   text-align: center; }
